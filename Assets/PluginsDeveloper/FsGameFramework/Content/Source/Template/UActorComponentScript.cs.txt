@@ -1,0 +1,12 @@
+﻿using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+using FsGameFramework;
+
+public class #SCRIPTNAME# : UActorComponent
+{
+    public #SCRIPTNAME#(AActor actor) : base(actor)
+    {
+        //init，在此初始化需要的内容
+    }
+}

@@ -1,0 +1,109 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &2074612716227377695
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7150943436686890037}
+  - component: {fileID: 5812571339200385950}
+  m_Layer: 0
+  m_Name: GlobalBloom
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7150943436686890037
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2074612716227377695}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5812571339200385950
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2074612716227377695}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7077c0120f6338e478b899e68b24058b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_ListGlobalBloomNode:
+  - Color: {r: 1, g: 1, b: 1, a: 1}
+    Threshold: 1.4
+    Intensity: 12
+    Scatter: 0.6
+    LocationValue: 0
+  - Color: {r: 1, g: 1, b: 1, a: 1}
+    Threshold: 1.4
+    Intensity: 12
+    Scatter: 0.6
+    LocationValue: 0.24
+  - Color: {r: 1, g: 1, b: 1, a: 1}
+    Threshold: 1.4
+    Intensity: 12
+    Scatter: 0.6
+    LocationValue: 0.25
+  - Color: {r: 1, g: 1, b: 1, a: 1}
+    Threshold: 1.3
+    Intensity: 8
+    Scatter: 0.3
+    LocationValue: 0.26
+  - Color: {r: 1, g: 1, b: 1, a: 1}
+    Threshold: 1.3
+    Intensity: 8
+    Scatter: 0.3
+    LocationValue: 0.3
+  - Color: {r: 1, g: 1, b: 1, a: 1}
+    Threshold: 1.3
+    Intensity: 8
+    Scatter: 0.3
+    LocationValue: 0.5
+  - Color: {r: 1, g: 1, b: 1, a: 1}
+    Threshold: 1.3
+    Intensity: 8
+    Scatter: 0.3
+    LocationValue: 0.7
+  - Color: {r: 1, g: 1, b: 1, a: 1}
+    Threshold: 1.4
+    Intensity: 12
+    Scatter: 0.6
+    LocationValue: 0.74
+  - Color: {r: 1, g: 1, b: 1, a: 1}
+    Threshold: 1.4
+    Intensity: 12
+    Scatter: 0.6
+    LocationValue: 0.75
+  - Color: {r: 1, g: 1, b: 1, a: 1}
+    Threshold: 1.4
+    Intensity: 12
+    Scatter: 0.6
+    LocationValue: 0.76
+  - Color: {r: 1, g: 1, b: 1, a: 1}
+    Threshold: 1.4
+    Intensity: 12
+    Scatter: 0.6
+    LocationValue: 0.8
+  - Color: {r: 1, g: 1, b: 1, a: 1}
+    Threshold: 1.4
+    Intensity: 12
+    Scatter: 0.6
+    LocationValue: 1
+  m_Enable: 0
+  m_LocationValue: 0

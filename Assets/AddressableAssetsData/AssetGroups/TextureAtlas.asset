@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: TextureAtlas
+  m_EditorClassIdentifier: 
+  m_GroupName: TextureAtlas
+  m_Data:
+    m_SerializedData: []
+  m_GUID: d52cfb16d8687bb44bdebe40be49efc4
+  m_SerializeEntries:
+  - m_GUID: 20139bfdd5fb754439cc7f4f84d5889a
+    m_Address: Assets/ProductAssets/Texture/Atlas
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: 854052dcc2b859a4c8d8dae4e736043b, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 83a0f2fe417b83648bc8e78c173964cc, type: 2}
+    - {fileID: 11400000, guid: ea259075b473bd142bccca09b1038151, type: 2}

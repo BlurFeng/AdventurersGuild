@@ -1,0 +1,17 @@
+syntax = "proto3";
+package deploy;
+
+message Prop_Config
+{
+	int32	Id	=	1;
+	string	Name	=	2;
+	int32	Type	=	3;
+	int32	Price	=	4;
+	string	Icon	=	5;
+	string	Desc	=	6;
+}
+
+message Prop_Config_Map
+{
+	map<int32, Prop_Config> Items = 1;
+}

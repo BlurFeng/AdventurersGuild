@@ -1,0 +1,16 @@
+syntax = "proto3";
+package deploy;
+
+message Venturer_Alignment
+{
+	int32	Id	=	1;
+	string	Name	=	2;
+	string	Desc	=	3;
+	int32	MinStayTurn	=	4;
+	int32	perTurnLeavePercent	=	5;
+}
+
+message Venturer_Alignment_Map
+{
+	map<int32, Venturer_Alignment> Items = 1;
+}

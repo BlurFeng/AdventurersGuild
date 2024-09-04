@@ -1,0 +1,20 @@
+syntax = "proto3";
+package deploy;
+
+message Skill_Config
+{
+	int32	Id	=	1;
+	int32	Faction	=	2;
+	int32	Type	=	3;
+	int32	Rank	=	4;
+	repeated int32	Element	=	5;
+	string	Name	=	6;
+	int32	ActiveType	=	7;
+	string	Icon	=	8;
+	string	Desc	=	9;
+}
+
+message Skill_Config_Map
+{
+	map<int32, Skill_Config> Items = 1;
+}

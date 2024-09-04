@@ -1,0 +1,20 @@
+syntax = "proto3";
+package deploy;
+
+message Profession_Config
+{
+	int32	Id	=	1;
+	int32	Faction	=	2;
+	string	Name	=	3;
+	string	Icon	=	4;
+	repeated int32	BasedProfessionIdArray	=	5;
+	string	Desc	=	6;
+	map<int32,int32>	AttrBonus	=	7;
+	map<int32,int32>	ConditionRank	=	8;
+	map<int32,int32>	ConditionProportion	=	9;
+}
+
+message Profession_Config_Map
+{
+	map<int32, Profession_Config> Items = 1;
+}

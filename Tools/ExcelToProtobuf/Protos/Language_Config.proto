@@ -1,0 +1,14 @@
+syntax = "proto3";
+package deploy;
+
+message Language_Config
+{
+	int32	Id	=	1;
+	string	Chinese	=	2;
+	string	English	=	3;
+}
+
+message Language_Config_Map
+{
+	map<int32, Language_Config> Items = 1;
+}

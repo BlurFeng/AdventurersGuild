@@ -1,0 +1,16 @@
+syntax = "proto3";
+package deploy;
+
+message WorldMap_Road
+{
+	int32	Id	=	1;
+	string	Name	=	2;
+	int32	LengthBase	=	3;
+	int32	Destination	=	4;
+	int32	RoadSurfaceType	=	5;
+}
+
+message WorldMap_Road_Map
+{
+	map<int32, WorldMap_Road> Items = 1;
+}

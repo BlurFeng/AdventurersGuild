@@ -1,0 +1,17 @@
+syntax = "proto3";
+package deploy;
+
+message Pathfinding_LevelGraph
+{
+	int32	Id	=	1;
+	string	MapName	=	2;
+	int32	Width	=	3;
+	int32	Depth	=	4;
+	int32	NodeSize	=	5;
+	repeated int32	Center	=	6;
+}
+
+message Pathfinding_LevelGraph_Map
+{
+	map<int32, Pathfinding_LevelGraph> Items = 1;
+}

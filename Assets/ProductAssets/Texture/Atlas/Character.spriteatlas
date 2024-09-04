@@ -1,0 +1,115 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &4343727234628468602
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Character
+  serializedVersion: 2
+  m_EditorData:
+    serializedVersion: 2
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 0
+      compressionQuality: 0
+      maxTextureSize: 0
+      textureCompression: 0
+      filterMode: 1
+      generateMipMaps: 0
+      readable: 0
+      crunchedCompression: 0
+      sRGB: 1
+    platformSettings:
+    - serializedVersion: 3
+      m_BuildTarget: Android
+      m_MaxTextureSize: 2048
+      m_ResizeAlgorithm: 0
+      m_TextureFormat: 48
+      m_TextureCompression: 1
+      m_CompressionQuality: 50
+      m_CrunchedCompression: 0
+      m_AllowsAlphaSplitting: 0
+      m_Overridden: 1
+      m_AndroidETC2FallbackOverride: 0
+      m_ForceMaximumCompressionQuality_BC6H_BC7: 0
+    - serializedVersion: 3
+      m_BuildTarget: DefaultTexturePlatform
+      m_MaxTextureSize: 2048
+      m_ResizeAlgorithm: 0
+      m_TextureFormat: -1
+      m_TextureCompression: 2
+      m_CompressionQuality: 50
+      m_CrunchedCompression: 0
+      m_AllowsAlphaSplitting: 0
+      m_Overridden: 0
+      m_AndroidETC2FallbackOverride: 0
+      m_ForceMaximumCompressionQuality_BC6H_BC7: 0
+    packingSettings:
+      serializedVersion: 2
+      padding: 4
+      blockOffset: 0
+      allowAlphaSplitting: 0
+      enableRotation: 0
+      enableTightPacking: 0
+    secondaryTextureSettings: {}
+    variantMultiplier: 1
+    packables:
+    - {fileID: 102900000, guid: 80138dd94deddeb4eaec3b63a1a16894, type: 3}
+    bindAsDefault: 1
+    isAtlasV2: 0
+    cachedData: {fileID: 0}
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: 21300000, guid: ad586210a25de9a4ea5ae094b146294e, type: 3}
+  - {fileID: 21300000, guid: 4346cd40ed98272499bce9934d0543a3, type: 3}
+  - {fileID: 21300000, guid: 377b5560bef0b574ea2575750750ef42, type: 3}
+  - {fileID: 21300000, guid: a16ac06122fa3904d9f8e33ef0dfe883, type: 3}
+  - {fileID: 21300000, guid: 79cae152e2320a545b99be59e50985ad, type: 3}
+  - {fileID: 21300000, guid: 1591cf82a3cc84c4a888d477eba1c245, type: 3}
+  - {fileID: 21300000, guid: 250533546b420d94bb411554f95e042b, type: 3}
+  - {fileID: 21300000, guid: ad55b56498383eb4a9df86ee6f4d4919, type: 3}
+  - {fileID: 21300000, guid: 0179577447c409743991bd0a819603dc, type: 3}
+  - {fileID: 21300000, guid: d736fea4be3cfb24397b2823b4b78dcc, type: 3}
+  - {fileID: 21300000, guid: e48c730561b3a404b8b2113c5f8aab7f, type: 3}
+  - {fileID: 21300000, guid: 827bb926801ab9540abadbef1947b4e5, type: 3}
+  - {fileID: 21300000, guid: 5387e5b6c8f8a3d4b85792b76fcf7ebc, type: 3}
+  - {fileID: 21300000, guid: 49d3ad1825ad6bf4b98f6fa7a898aa0a, type: 3}
+  - {fileID: 21300000, guid: e406803a818ceb544869bc0f66de24e5, type: 3}
+  - {fileID: 21300000, guid: 0a4c1f5acf174964f8087474bb693dd8, type: 3}
+  - {fileID: 21300000, guid: 2cf0797c6e3df9a4daa7879390d71348, type: 3}
+  - {fileID: 21300000, guid: a20c18ccfb1fe274d9b70b77f3369fce, type: 3}
+  - {fileID: 21300000, guid: efa9cf2dde0433b4d9d6d00b775de46d, type: 3}
+  - {fileID: 21300000, guid: 19c188dd8a00101429aa5842aceb08ae, type: 3}
+  - {fileID: 21300000, guid: 388b33dec8462414d8a1fdf6502350c5, type: 3}
+  - {fileID: 21300000, guid: 347baf0f457b9574188b9085ebb93ae7, type: 3}
+  - {fileID: 21300000, guid: 8499f66f1b6c6cd4ea278a1a2ccb4712, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - MainWindow_dailogwindow
+  - MainWindow_icon_draw
+  - MainWindow_icon_ChangePartner
+  - MainWindow_icon_chat
+  - MainWindow_DialogLine2
+  - MainWindow_frame_grade
+  - MainWindow_bgmaskRight
+  - MainWindow_DialogLine1
+  - MainWindow_icon_ChangeType
+  - MainWindow_icon_mail
+  - MainWindow_icon_ChangeBg
+  - MainWindow_icon_mirror
+  - MainWindow_icon_more
+  - MainWindow_frame_TopbarBg
+  - MainWindow_grade_ProgressBar2
+  - MainWindow_frame_TopbarBg2
+  - MainWindow_icon_phone
+  - MainWindow_frame_head
+  - MainWindow_topbar_bottonframe
+  - MainWindow_icon_name
+  - MainWindow_frame_grade2
+  - MainWindow_icon_story
+  - MainWindow_icon_fullscreen
+  m_RenderDataMap: {}
+  m_Tag: Character
+  m_IsVariant: 0
+  m_IsPlaceholder: 0

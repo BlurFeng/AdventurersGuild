@@ -1,0 +1,51 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Config
+  m_EditorClassIdentifier: 
+  m_GroupName: Config
+  m_Data:
+    m_SerializedData: []
+  m_GUID: fbd56a3007035764e9a0c774421dc7ab
+  m_SerializeEntries:
+  - m_GUID: cb9d6879093af534bbc0469c8f8f1d82
+    m_Address: Assets/ProductAssets/Config
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - config
+    - configexcel
+  - m_GUID: f287792af9a1dba44aaba312760f2a25
+    m_Address: Assets/ProductAssets/ConfigGamePlay/FsGameFramework/ConfigWorld
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - configWorld
+  - m_GUID: 45ceb0984fbb0e84c80c2b1f8e8ff7fe
+    m_Address: Assets/ProductAssets/ConfigJson
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 7aeed23bd6658d34aa4be9369c6be32a
+    m_Address: Assets/ProductAssets/ConfigBuildingGrid
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - configBuildinggrid
+    - configbuildinggrid
+  - m_GUID: 55b30e6281554a94a884e4c53c1beace
+    m_Address: Assets/ProductAssets/ConfigGamePlay/FsStoryIncident/StoryIncidentInitConfig
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - configStoryIncidentInit
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: 854052dcc2b859a4c8d8dae4e736043b, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: da388663cfe4e9949a8fcbc140c1437f, type: 2}
+    - {fileID: 11400000, guid: 2eec8433ef546b54184896eb66ca8b5c, type: 2}

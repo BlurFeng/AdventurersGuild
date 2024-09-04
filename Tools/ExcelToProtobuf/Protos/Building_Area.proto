@@ -1,0 +1,15 @@
+syntax = "proto3";
+package deploy;
+
+message Building_Area
+{
+	int32	Id	=	1;
+	string	Name	=	2;
+	map<int32,int32>	FurnitureRequire	=	3;
+	string	Desc	=	4;
+}
+
+message Building_Area_Map
+{
+	map<int32, Building_Area> Items = 1;
+}

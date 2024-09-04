@@ -1,0 +1,18 @@
+syntax = "proto3";
+package deploy;
+
+message Window_Config
+{
+	int32	Id	=	1;
+	string	Asset	=	2;
+	string	BGP	=	3;
+	int32	Group	=	4;
+	int32	OperateCharacterMove	=	5;
+	int32	OperateMouseScene	=	6;
+	string	BGM	=	7;
+}
+
+message Window_Config_Map
+{
+	map<int32, Window_Config> Items = 1;
+}

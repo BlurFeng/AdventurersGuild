@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 263a02d806bd60a46b215894b2bb93c5, type: 3}
+  m_Name: StoryIncidentInitConfigExample
+  m_EditorClassIdentifier: 
+  configCommonData:
+    sGuid:
+      guidStr: d0faadfb-f0ff-43ca-b3f5-9f388621a4ec
+      autoNew: 0
+    name: 
+    describe: 
+    tags: []
+    foldout: 0
+    commentName: 
+    comment: 
+  storyGatherConfigs:
+  - {fileID: 11400000, guid: 049cc11f0d4369c488787b00bb1057c0, type: 2}
+  incidentPackGatherConfigs:
+  - {fileID: 11400000, guid: 58b5626445dc5f0478ac6d581de3677d, type: 2}

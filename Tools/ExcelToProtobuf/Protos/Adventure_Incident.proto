@@ -1,0 +1,23 @@
+syntax = "proto3";
+package deploy;
+
+message Adventure_Incident
+{
+	int32	Id	=	1;
+	string	Name	=	2;
+	string	Describe	=	3;
+	repeated string	LinkIncidents	=	4;
+	repeated string	LinkIncidentScoreConditions	=	5;
+	repeated string	LinkIncidentChooseConditions	=	6;
+	repeated string	Items	=	7;
+	int32	Probability	=	8;
+	int32	Priority	=	9;
+	int32	Weight	=	10;
+	repeated string	ConditionArray	=	11;
+	string	LogicExpression	=	12;
+}
+
+message Adventure_Incident_Map
+{
+	map<int32, Adventure_Incident> Items = 1;
+}

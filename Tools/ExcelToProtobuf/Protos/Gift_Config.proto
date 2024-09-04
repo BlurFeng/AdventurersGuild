@@ -1,0 +1,15 @@
+syntax = "proto3";
+package deploy;
+
+message Gift_Config
+{
+	int32	Id	=	1;
+	string	Name	=	2;
+	int32	Rank	=	3;
+	string	Desc	=	4;
+}
+
+message Gift_Config_Map
+{
+	map<int32, Gift_Config> Items = 1;
+}

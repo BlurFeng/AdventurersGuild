@@ -1,0 +1,16 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eca81e1fa36baeb4ba1fb8a5b105e5ce, type: 3}
+  m_Name: MainGame_Level
+  m_EditorClassIdentifier: 
+  m_LevelName: MainGame_Level
+  m_TerrainPrefab: {fileID: 3908342416353692877, guid: da3754663a112b24780f595704769d68, type: 3}

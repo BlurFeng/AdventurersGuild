@@ -1,0 +1,47 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 964037776c7f071499cf14feb30a3f7f, type: 3}
+  m_Name: GridItemToolsWindowConfig_Saved
+  m_EditorClassIdentifier: 
+  processorScript: {fileID: 11500000, guid: 238bef90168d2d34b844201977413a0c, type: 3}
+  gridItemsDataTxt_CreatePrefab: {fileID: 4900000, guid: 2f90c69aa7110774cade7a68b7f5f4e4, type: 3}
+  imagesFolderPath_CreatePrefab: Assets/ProductAssets/Texture/GridItem
+  gridItemsExportFolder_CreatePrefab: Assets/ProductAssets/Prefab/GridItem
+  gridItemMonoScript_CreatePrefab: {fileID: 11500000, guid: 678a5817ed54de3489a59ef21263de92, type: 3}
+  gridItemScriptSettings:
+  - scriptTag: BM
+    gridItemScript: {fileID: 11500000, guid: a2656514ab3987e44a8c3097928af2c3, type: 3}
+  - scriptTag: BMSS
+    gridItemScript: {fileID: 11500000, guid: 9f4c3fc974103154e9bef0cfde97eda4, type: 3}
+  - scriptTag: BMST
+    gridItemScript: {fileID: 11500000, guid: 81ccc92fb5b04884fa5079d591cb4681, type: 3}
+  - scriptTag: BMSD
+    gridItemScript: {fileID: 11500000, guid: 0d141e8ef32111e4a92814d42b420bb4, type: 3}
+  - scriptTag: BMSRoof
+    gridItemScript: {fileID: 11500000, guid: 1038b962b7ad83f49a7d718e6e5557aa, type: 3}
+  useExistedPrefab_CreatePrefab: 1
+  gridItemPrefabSearchPath_CreatePrefab: Assets/ProductAssets/Prefab/GridItem
+  gridItemPrefabUpdate_CreatePrefab: 1
+  gridItemPrefabUpdate_GridItemMonoScript: 1
+  gridItemPrefabUpdate_GridItemComponent_CreatePrefab: 1
+  gridItemPrefabUpdate_ViewRoot_CreatePrefab: 1
+  gridItemPrefabUpdate_ColliderRoot_CreatePrefab: 0
+  singleGridItemPrefabUpdate_Prefab: {fileID: 6549097329086121445, guid: 3759fef8e0a2c5f4894b27ce42a98deb, type: 3}
+  singleGridItemPrefabUpdate_DataText: {fileID: 4900000, guid: 2f90c69aa7110774cade7a68b7f5f4e4, type: 3}
+  singleGridItemPrefabUpdate_GridItemMonoScript: 1
+  singleGridItemPrefabUpdate_GridItemComponent: 1
+  singleGridItemPrefabUpdate_ViewRoot: 1
+  singleGridItemPrefabUpdate_ColliderRoot: 1
+  gridItemPreformedUnitPrefab_Update_Prefab: {fileID: 0}
+  gridItemsDataTxt_Update_DataText: {fileID: 0}
+  gridItemPreformedUnitPrefab_ViewRootSet: {fileID: 4623504828530685490, guid: ee1814c23dd56564b90e228a782988ae, type: 3}
+  gridItemsDataTxt_ViewRootSet: {fileID: 0}

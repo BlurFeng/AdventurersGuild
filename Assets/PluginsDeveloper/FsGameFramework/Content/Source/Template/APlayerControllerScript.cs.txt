@@ -1,0 +1,14 @@
+﻿using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+using FsGameFramework;
+
+public class #SCRIPTNAME# : APlayerController
+{
+    public override void Init(UObject owner)
+    {
+        base.Init(owner);
+
+        //初始化你的内容
+    }
+}

@@ -1,0 +1,15 @@
+syntax = "proto3";
+package deploy;
+
+message Shop_MainTab
+{
+	int32	Id	=	1;
+	string	Name	=	2;
+	int32	SkinPartEnum	=	3;
+	map<int32,int32>	AttrAdd	=	4;
+}
+
+message Shop_MainTab_Map
+{
+	map<int32, Shop_MainTab> Items = 1;
+}

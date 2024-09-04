@@ -1,0 +1,13 @@
+syntax = "proto3";
+package deploy;
+
+message Skill_Value
+{
+	int32	Id	=	1;
+	repeated int32	IntArray	=	2;
+}
+
+message Skill_Value_Map
+{
+	map<int32, Skill_Value> Items = 1;
+}

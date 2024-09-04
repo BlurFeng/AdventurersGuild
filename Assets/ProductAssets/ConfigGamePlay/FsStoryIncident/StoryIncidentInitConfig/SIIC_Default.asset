@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 263a02d806bd60a46b215894b2bb93c5, type: 3}
+  m_Name: SIIC_Default
+  m_EditorClassIdentifier: 
+  configCommonData:
+    projectId: 10000000004
+    name: 
+    describe: 
+    tags: []
+    comment: 
+  storyGatherConfigs:
+  - {fileID: 11400000, guid: 9f508e82872a6d045aa52743e1c5cdf4, type: 2}
+  incidentPackGatherConfigs:
+  - {fileID: 11400000, guid: d47ef5bd46149f84f873d669bc79de28, type: 2}

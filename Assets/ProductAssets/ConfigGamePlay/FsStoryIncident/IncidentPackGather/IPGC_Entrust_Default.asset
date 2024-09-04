@@ -1,0 +1,48 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ef1751a66cbff1f48aa66f5df8fbb385, type: 3}
+  m_Name: IPGC_Entrust_Default
+  m_EditorClassIdentifier: 
+  configCommonData:
+    sGuid:
+      guidStr: f3788b1b-ae63-4a28-bf41-cfe08830d217
+    name: "\u5192\u9669\u8005\u9ED8\u8BA4\u4E8B\u4EF6\u914D\u7F6E"
+    describe: 
+    tags: []
+    foldout: 0
+    commentName: 
+    comment: "\u8FD9\u4E9B\u4E8B\u4EF6\u7531\u5192\u9669\u8005\u81EA\u52A8\u5904\u7406\u3002"
+  incidentPackConfigs:
+  - configCommonData:
+      sGuid:
+        guidStr: 99b40af6-5024-4e29-bb31-1548d095a1c0
+      name: 
+      describe: 
+      tags: []
+      foldout: 0
+      commentName: 
+      comment: 
+    randomData:
+      probability: 10000
+      priority: 0
+      weight: 1
+    conditionConfig:
+      conditionItems: []
+      logicExpression: 
+      ownerType: 10
+      foldout: 0
+      logicExpressionCached: 
+      logicExpressionNotValid: 0
+    incidentGuidStrs:
+    - 08b5347e-00dc-43cf-8876-8639b8cd64b5
+    fadeAreaOpenCached: 1
+    incidentSelectIndexs: 00000000

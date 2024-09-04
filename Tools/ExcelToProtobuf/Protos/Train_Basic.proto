@@ -1,0 +1,20 @@
+syntax = "proto3";
+package deploy;
+
+message Train_Basic
+{
+	int32	Id	=	1;
+	int32	Type	=	2;
+	string	Name	=	3;
+	string	Icon	=	4;
+	string	Desc	=	5;
+	int32	Exp	=	6;
+	int32	RequireTrainPoint	=	7;
+	repeated int32	AttributeIds	=	8;
+	repeated int32	AttributeBonusPoints	=	9;
+}
+
+message Train_Basic_Map
+{
+	map<int32, Train_Basic> Items = 1;
+}

@@ -1,0 +1,19 @@
+syntax = "proto3";
+package deploy;
+
+message Adventure_IncidentNode
+{
+	int32	Id	=	1;
+	string	Name	=	2;
+	string	Describe	=	3;
+	repeated int32	ChooseArray	=	4;
+	int32	ScoreCompareType	=	5;
+	int32	LeavingScoreLimit	=	6;
+	int32	NodeType	=	7;
+	int32	PointToId	=	8;
+}
+
+message Adventure_IncidentNode_Map
+{
+	map<int32, Adventure_IncidentNode> Items = 1;
+}

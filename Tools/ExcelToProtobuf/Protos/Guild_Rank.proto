@@ -1,0 +1,19 @@
+syntax = "proto3";
+package deploy;
+
+message Guild_Rank
+{
+	int32	Id	=	1;
+	string	Name	=	2;
+	int32	BuildingScaleValueRequire	=	3;
+	int32	FacilityValueRequire	=	4;
+	int32	EntrustScoreRequire	=	5;
+	map<int32,int32>	VenturerRankWeight	=	6;
+	int32	EntrustCount	=	7;
+	map<int32,int32>	EntrustRankWeight	=	8;
+}
+
+message Guild_Rank_Map
+{
+	map<int32, Guild_Rank> Items = 1;
+}

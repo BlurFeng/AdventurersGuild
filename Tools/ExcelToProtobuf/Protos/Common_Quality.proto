@@ -1,0 +1,16 @@
+syntax = "proto3";
+package deploy;
+
+message Common_Quality
+{
+	int32	Id	=	1;
+	string	Name	=	2;
+	string	Icon	=	3;
+	string	Desc	=	4;
+	string	ColorHex	=	5;
+}
+
+message Common_Quality_Map
+{
+	map<int32, Common_Quality> Items = 1;
+}

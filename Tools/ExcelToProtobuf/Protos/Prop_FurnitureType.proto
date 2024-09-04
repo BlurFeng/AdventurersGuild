@@ -1,0 +1,14 @@
+syntax = "proto3";
+package deploy;
+
+message Prop_FurnitureType
+{
+	int32	Id	=	1;
+	string	Name	=	2;
+	int32	UseAreaId	=	3;
+}
+
+message Prop_FurnitureType_Map
+{
+	map<int32, Prop_FurnitureType> Items = 1;
+}

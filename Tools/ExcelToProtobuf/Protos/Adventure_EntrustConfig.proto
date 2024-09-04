@@ -1,0 +1,15 @@
+syntax = "proto3";
+package deploy;
+
+message Adventure_EntrustConfig
+{
+	int32	Id	=	1;
+	int32	EntrustId	=	2;
+	repeated int32	IncidentPackIds	=	3;
+	repeated int32	IncidentIds	=	4;
+}
+
+message Adventure_EntrustConfig_Map
+{
+	map<int32, Adventure_EntrustConfig> Items = 1;
+}

@@ -1,0 +1,15 @@
+syntax = "proto3";
+package deploy;
+
+message Research_Item
+{
+	int32	Id	=	1;
+	int32	SkillId	=	2;
+	int32	ConditionResearchId	=	3;
+	int32	RequireResearchPoint	=	4;
+}
+
+message Research_Item_Map
+{
+	map<int32, Research_Item> Items = 1;
+}

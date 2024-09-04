@@ -1,0 +1,15 @@
+syntax = "proto3";
+package deploy;
+
+message Story_Dialogue
+{
+	int32	Id	=	1;
+	int32	SectionId	=	2;
+	int32	NextID	=	3;
+	string	Content	=	4;
+}
+
+message Story_Dialogue_Map
+{
+	map<int32, Story_Dialogue> Items = 1;
+}

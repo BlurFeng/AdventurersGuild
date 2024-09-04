@@ -1,0 +1,16 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eca81e1fa36baeb4ba1fb8a5b105e5ce, type: 3}
+  m_Name: FGameFrameworkDemoLevelConfig
+  m_EditorClassIdentifier: 
+  m_LevelName: DemoLevel
+  m_TerrainPrefab: {fileID: 1199353815066617261, guid: 44877f4ca069d0c4191b6331c35a6444, type: 3}

@@ -1,0 +1,14 @@
+syntax = "proto3";
+package deploy;
+
+message Prop_SkinAttr
+{
+	int32	Id	=	1;
+	int32	SkinPartEnum	=	2;
+	map<int32,int32>	AttrAdd	=	3;
+}
+
+message Prop_SkinAttr_Map
+{
+	map<int32, Prop_SkinAttr> Items = 1;
+}

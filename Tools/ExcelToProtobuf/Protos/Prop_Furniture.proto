@@ -1,0 +1,18 @@
+syntax = "proto3";
+package deploy;
+
+message Prop_Furniture
+{
+	int32	Id	=	1;
+	int32	Type	=	2;
+	int32	SetType	=	3;
+	int32	GridItemSizeX	=	4;
+	int32	GridItemSizeY	=	5;
+	int32	GridItemSizeZ	=	6;
+	int32	FacilityValue	=	7;
+}
+
+message Prop_Furniture_Map
+{
+	map<int32, Prop_Furniture> Items = 1;
+}

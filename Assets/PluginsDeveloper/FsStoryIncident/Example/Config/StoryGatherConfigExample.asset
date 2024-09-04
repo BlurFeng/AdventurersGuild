@@ -1,0 +1,211 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b4193ef03098d084fb0773f416570849, type: 3}
+  m_Name: StoryGatherConfigExample
+  m_EditorClassIdentifier: 
+  configCommonData:
+    sGuid:
+      guidStr: 71cd6e83-e9b3-4913-987e-a7412d4e93c9
+    name: ExampleStoryGather
+    describe: 
+    tags: []
+    foldout: 1
+    commentName: "\u793A\u4F8B\u6545\u4E8B\u96C6"
+    comment: "\u5907\u6CE8"
+  taskConfig:
+    taskItems: []
+    ownerType: 0
+    foldout: 0
+  storyConfigs:
+  - configCommonData:
+      sGuid:
+        guidStr: 52754631-4689-4a18-bed0-9a8b011da155
+      name: ExampleStory
+      describe: 
+      tags: []
+      foldout: 1
+      commentName: "\u793A\u4F8B\u6545\u4E8B"
+      comment: 
+    startChapterGuid:
+      guidStr: 
+    conditionConfig:
+      conditionItems: []
+      logicExpression: 
+      ownerType: 2
+      foldout: 0
+      logicExpressionCached: 
+      logicExpressionNotValid: 0
+    taskConfig:
+      taskItems: []
+      ownerType: 0
+      foldout: 0
+    chapters:
+    - configCommonData:
+        sGuid:
+          guidStr: 09c0dbc7-fd62-4bcd-bbfa-a2cec36b4f35
+        name: ExampleChapter
+        describe: 
+        tags: []
+        foldout: 1
+        commentName: "\u793A\u4F8B\u7AE0"
+        comment: 
+      taskConfig:
+        taskItems: []
+        ownerType: 0
+        foldout: 0
+      linkOtherConfig:
+        linkOtherItems: []
+        foldoutLinkItems: 0
+      type: 0
+      startIncidentGuid:
+        guidStr: 
+      conditionNum: 0
+      incidents:
+      - configCommonData:
+          sGuid:
+            guidStr: 525e16d7-08a9-4706-8218-8e2f58b968e6
+          name: ExampleIncident
+          describe: 
+          tags: []
+          foldout: 1
+          commentName: "\u793A\u4F8B\u4E8B\u4EF6"
+          comment: 
+        randomData:
+          probability: 10000
+          priority: 0
+          weight: 1
+        repetition: 0
+        conditionConfig:
+          conditionItems: []
+          logicExpression: 
+          ownerType: 4
+          foldout: 0
+          logicExpressionCached: 
+          logicExpressionNotValid: 0
+        taskConfig:
+          taskItems: []
+          ownerType: 0
+          foldout: 0
+        linkOtherConfig:
+          linkOtherItems: []
+          foldoutLinkItems: 0
+        incidentItems:
+        - configCommonData:
+            sGuid:
+              guidStr: 0a30a614-88e6-41aa-a8e5-8958ffad048c
+            name: ExampleIncidentItem
+            describe: 
+            tags: []
+            foldout: 1
+            commentName: "\u793A\u4F8B\u4E8B\u4EF6\u9879\u76EE"
+            comment: 
+          randomData:
+            probability: 10000
+            priority: 0
+            weight: 1
+          startNodeGuid:
+            guidStr: 
+          conditionConfig:
+            conditionItems: []
+            logicExpression: 
+            ownerType: 5
+            foldout: 0
+            logicExpressionCached: 
+            logicExpressionNotValid: 0
+          taskConfig:
+            taskItems: []
+            ownerType: 0
+            foldout: 0
+          nodes:
+          - configCommonData:
+              sGuid:
+                guidStr: 5f91157a-2318-44c5-b8c4-31fefc51dc17
+              name: ExampleNode
+              describe: 
+              tags: []
+              foldout: 1
+              commentName: "\u793A\u4F8B\u8282\u70B9"
+              comment: 
+            nodeType: 0
+            scoreLimit: 0
+            scoreLimitNum: 0
+            paragraphs: []
+            taskConfig:
+              taskItems: []
+              ownerType: 0
+              foldout: 0
+            chooses:
+            - configCommonData:
+                sGuid:
+                  guidStr: 7c10b94e-9ac6-4438-b04c-6c7a29993d86
+                name: ExampleChoose1
+                describe: 
+                tags: []
+                foldout: 1
+                commentName: "\u793A\u4F8B\u9009\u62E91"
+                comment: 
+              scoreUseType: 0
+              score: 0
+              conditionConfig:
+                conditionItems: []
+                logicExpression: 
+                ownerType: 7
+                foldout: 0
+                logicExpressionCached: 
+                logicExpressionNotValid: 0
+              taskConfig:
+                taskItems: []
+                ownerType: 0
+                foldout: 0
+              linkOtherConfig:
+                linkOtherItems: []
+                foldoutLinkItems: 0
+              fadeAreaOpenCached: 1
+            - configCommonData:
+                sGuid:
+                  guidStr: 716c1328-d382-47e9-b17f-42acaffe1c16
+                name: ExampleChoose2
+                describe: 
+                tags: []
+                foldout: 1
+                commentName: "\u793A\u4F8B\u9009\u62E92"
+                comment: 
+              scoreUseType: 0
+              score: 0
+              conditionConfig:
+                conditionItems: []
+                logicExpression: 
+                ownerType: 7
+                foldout: 0
+                logicExpressionCached: 
+                logicExpressionNotValid: 0
+              taskConfig:
+                taskItems: []
+                ownerType: 0
+                foldout: 0
+              linkOtherConfig:
+                linkOtherItems: []
+                foldoutLinkItems: 0
+              fadeAreaOpenCached: 1
+            fadeAreaOpenCached: 1
+            foldoutParagraphs: 1
+          fadeAreaOpenCached: 1
+          startNodeIndex: 0
+        fadeAreaOpenCached: 1
+      fadeAreaOpenCached: 1
+      startIncidentIndex: 0
+      incidentHeaders:
+      - "\u793A\u4F8B\u4E8B\u4EF6"
+    fadeAreaOpenCached: 1
+    startChapterIndex: 0
+    chapterHeaders:
+    - "\u793A\u4F8B\u7AE0"

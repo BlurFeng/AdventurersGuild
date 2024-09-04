@@ -1,0 +1,14 @@
+syntax = "proto3";
+package deploy;
+
+message Venturer_Rank
+{
+	int32	Id	=	1;
+	string	Name	=	2;
+	string	Desc	=	3;
+}
+
+message Venturer_Rank_Map
+{
+	map<int32, Venturer_Rank> Items = 1;
+}

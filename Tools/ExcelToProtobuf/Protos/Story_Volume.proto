@@ -1,0 +1,13 @@
+syntax = "proto3";
+package deploy;
+
+message Story_Volume
+{
+	int32	Id	=	1;
+	string	Name	=	2;
+}
+
+message Story_Volume_Map
+{
+	map<int32, Story_Volume> Items = 1;
+}

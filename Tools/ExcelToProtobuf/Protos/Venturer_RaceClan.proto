@@ -1,0 +1,30 @@
+syntax = "proto3";
+package deploy;
+
+message Venturer_RaceClan
+{
+	int32	Id	=	1;
+	string	Name	=	2;
+	int32	Class	=	3;
+	int32	Variety	=	4;
+	string	Desc	=	5;
+	string	PrefabName	=	6;
+	map<int32,string>	SkinPartSlotMap	=	7;
+	map<int32,string>	SkinColorHSVRange	=	8;
+	int32	SpawnWeight	=	9;
+	repeated int32	LifeTurnRange	=	10;
+	map<int32,int32>	GenderWeight	=	11;
+	map<int32,int32>	AlignmentWeight	=	12;
+	map<int32,int32>	GiftCountWeight	=	13;
+	map<int32,int32>	GiftWeight	=	14;
+	map<int32,int32>	AttrAmend	=	15;
+	int32	NameSortType	=	16;
+	repeated int32	SurnameGroupIds	=	17;
+	map<int32,string>	NameGroupIds	=	18;
+	repeated int32	ExtranameGroupIds	=	19;
+}
+
+message Venturer_RaceClan_Map
+{
+	map<int32, Venturer_RaceClan> Items = 1;
+}

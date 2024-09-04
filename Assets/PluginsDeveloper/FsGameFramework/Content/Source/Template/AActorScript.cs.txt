@@ -1,0 +1,15 @@
+﻿using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+using FsGameFramework;
+
+public class #SCRIPTNAME# : AActor
+{
+    public override bool Init(object owner = null)
+    {
+        return base.Init(owner);
+
+        //you can create your component，创建需要的ActorComponent
+        //m_DirectionInfoComponent = new InputInfoComponent(this);
+    }
+}

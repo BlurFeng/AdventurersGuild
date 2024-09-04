@@ -1,0 +1,15 @@
+syntax = "proto3";
+package deploy;
+
+message Skill_Type
+{
+	int32	Id	=	1;
+	string	Name	=	2;
+	string	Icon	=	3;
+	string	Desc	=	4;
+}
+
+message Skill_Type_Map
+{
+	map<int32, Skill_Type> Items = 1;
+}

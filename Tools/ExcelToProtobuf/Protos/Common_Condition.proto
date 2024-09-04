@@ -1,0 +1,13 @@
+syntax = "proto3";
+package deploy;
+
+message Common_Condition
+{
+	int32	Id	=	1;
+	string	Desc	=	2;
+}
+
+message Common_Condition_Map
+{
+	map<int32, Common_Condition> Items = 1;
+}

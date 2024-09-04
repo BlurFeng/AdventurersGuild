@@ -1,0 +1,21 @@
+﻿using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+using FsGameFramework;
+
+public class #SCRIPTNAME# : APawn
+{
+    public override void Init(UObject owner)
+    {
+        base.Init(owner);
+
+        //在此初始化需要的内容
+    }
+
+    public override void Tick(float deltaTime)
+    {
+        base.Tick(deltaTime);
+
+        //每帧调用的内同
+    }
+}

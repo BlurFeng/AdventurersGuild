@@ -1,0 +1,19 @@
+syntax = "proto3";
+package deploy;
+
+message Adventure_Story
+{
+	int32	Id	=	1;
+	string	Name	=	2;
+	string	Describe	=	3;
+	int32	Type	=	4;
+	repeated string	Incidents	=	5;
+	repeated int32	TireMoveConditionNum	=	6;
+	map<int32,string>	Condition	=	7;
+	string	LogicExpression	=	8;
+}
+
+message Adventure_Story_Map
+{
+	map<int32, Adventure_Story> Items = 1;
+}

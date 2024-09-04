@@ -1,0 +1,16 @@
+syntax = "proto3";
+package deploy;
+
+message Building_Level
+{
+	int32	Id	=	1;
+	int32	BuildId	=	2;
+	int32	BuildLevel	=	3;
+	int32	BuildingScaleValue	=	4;
+	repeated int32	UsableAreaIdList	=	5;
+}
+
+message Building_Level_Map
+{
+	map<int32, Building_Level> Items = 1;
+}

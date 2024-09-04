@@ -1,0 +1,27 @@
+syntax = "proto3";
+package deploy;
+
+message Entrust_ItemConfig
+{
+	int32	Id	=	1;
+	string	Title	=	2;
+	string	DescribeSimple	=	3;
+	string	Describe	=	4;
+	int32	Type	=	5;
+	int32	Rank	=	6;
+	int32	RoundsLimit	=	7;
+	int32	RoundsConsumeBase	=	8;
+	int32	CanTryMultipleTimes	=	9;
+	int32	VenturerNumMust	=	10;
+	int32	VenturerNumOptional	=	11;
+	int32	Single	=	12;
+	int32	ProbabilityBase	=	13;
+	int32	Weight	=	14;
+	map<int32,string>	ConditionMap	=	15;
+	repeated string	IncidentPacks	=	16;
+}
+
+message Entrust_ItemConfig_Map
+{
+	map<int32, Entrust_ItemConfig> Items = 1;
+}

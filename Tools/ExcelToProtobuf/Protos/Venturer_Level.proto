@@ -1,0 +1,15 @@
+syntax = "proto3";
+package deploy;
+
+message Venturer_Level
+{
+	int32	Id	=	1;
+	int32	ExpRequire	=	2;
+	map<int32,int32>	AttributeValues	=	3;
+	int32	SkillPointGet	=	4;
+}
+
+message Venturer_Level_Map
+{
+	map<int32, Venturer_Level> Items = 1;
+}

@@ -1,0 +1,13 @@
+syntax = "proto3";
+package deploy;
+
+message Adventure_Condition
+{
+	int32	Id	=	1;
+	string	ClassName	=	2;
+}
+
+message Adventure_Condition_Map
+{
+	map<int32, Adventure_Condition> Items = 1;
+}

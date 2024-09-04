@@ -1,0 +1,15 @@
+syntax = "proto3";
+package deploy;
+
+message WorldMap_Vehicle
+{
+	int32	Id	=	1;
+	string	Name	=	2;
+	int32	Type	=	3;
+	int32	MovePointBase	=	4;
+}
+
+message WorldMap_Vehicle_Map
+{
+	map<int32, WorldMap_Vehicle> Items = 1;
+}

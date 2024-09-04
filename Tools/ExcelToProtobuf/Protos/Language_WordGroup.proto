@@ -1,0 +1,14 @@
+syntax = "proto3";
+package deploy;
+
+message Language_WordGroup
+{
+	int32	Id	=	1;
+	int32	WordIdsStart	=	2;
+	int32	WordIdsEnd	=	3;
+}
+
+message Language_WordGroup_Map
+{
+	map<int32, Language_WordGroup> Items = 1;
+}

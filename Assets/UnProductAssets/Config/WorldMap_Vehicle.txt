@@ -1,0 +1,1 @@
+{ "Items": { "101": { "Id": 101, "Name": "步行", "Type": 1, "MovePointBase": 10 }, "102": { "Id": 102, "Name": "马匹", "Type": 2, "MovePointBase": 20 }, "103": { "Id": 103, "Name": "马车", "Type": 3, "MovePointBase": 30 } } }

@@ -1,0 +1,16 @@
+syntax = "proto3";
+package deploy;
+
+message Notebook_Help
+{
+	int32	Id	=	1;
+	string	Title	=	2;
+	int32	HelpType	=	3;
+	repeated string	Image	=	4;
+	repeated string	Content	=	5;
+}
+
+message Notebook_Help_Map
+{
+	map<int32, Notebook_Help> Items = 1;
+}

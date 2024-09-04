@@ -1,0 +1,19 @@
+syntax = "proto3";
+package deploy;
+
+message Entrust_Reward
+{
+	int32	Id	=	1;
+	int32	Coin	=	2;
+	int32	Prestige	=	3;
+	int32	VentureExp	=	4;
+	map<int32,int32>	PropMapFailed	=	5;
+	map<int32,int32>	PropMapSucceed	=	6;
+	map<int32,int32>	PropMapGreateSucceed	=	7;
+	map<int32,int32>	PropMapExcellentSucceed	=	8;
+}
+
+message Entrust_Reward_Map
+{
+	map<int32, Entrust_Reward> Items = 1;
+}

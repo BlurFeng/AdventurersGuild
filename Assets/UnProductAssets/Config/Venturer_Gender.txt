@@ -1,0 +1,1 @@
+{ "Items": { "1": { "Id": 1, "Name": "男性", "Icon": "Gender_Male" }, "2": { "Id": 2, "Name": "女性", "Icon": "Gender_Female" }, "3": { "Id": 3, "Name": "双性", "Icon": "Gender_Androgyne" }, "4": { "Id": 4, "Name": "无性", "Icon": "Gender_Agender" } } }

@@ -1,0 +1,1 @@
+{ "Items": { "100001": { "Id": 100001, "ClassName": "EC_Adroitly", "Name": "手脚利索", "Des": "需要体质和敏捷。" }, "100002": { "Id": 100002, "ClassName": "EC_Clever", "Name": "才智过人", "Des": "需要智慧和技巧。" } } }

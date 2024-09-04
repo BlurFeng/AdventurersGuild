@@ -1,0 +1,17 @@
+syntax = "proto3";
+package deploy;
+
+message Building_Config
+{
+	int32	Id	=	1;
+	string	Name	=	2;
+	int32	SetType	=	3;
+	int32	GridItemSizeX	=	4;
+	int32	GridItemSizeY	=	5;
+	int32	GridItemSizeZ	=	6;
+}
+
+message Building_Config_Map
+{
+	map<int32, Building_Config> Items = 1;
+}

@@ -1,0 +1,13 @@
+syntax = "proto3";
+package deploy;
+
+message Prop_SkinSprite
+{
+	int32	Id	=	1;
+	repeated string	SlotSprites	=	2;
+}
+
+message Prop_SkinSprite_Map
+{
+	map<int32, Prop_SkinSprite> Items = 1;
+}

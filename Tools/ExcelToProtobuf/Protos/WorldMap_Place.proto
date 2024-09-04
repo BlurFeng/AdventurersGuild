@@ -1,0 +1,27 @@
+syntax = "proto3";
+package deploy;
+
+message WorldMap_Place
+{
+	int32	Id	=	1;
+	string	Name	=	2;
+	int32	Level	=	3;
+	int32	Landform	=	4;
+	int32	Physiognomy	=	5;
+	int32	Climate	=	6;
+	repeated int32	Peculiarity	=	7;
+	repeated int32	Building	=	8;
+	int32	Country	=	9;
+	repeated int32	Roads	=	10;
+	int32	Area	=	11;
+	int32	Continent	=	12;
+	int32	Stellar	=	13;
+	repeated string	MainPopulation	=	14;
+	string	Describe	=	15;
+	int32	PlaceUseType	=	16;
+}
+
+message WorldMap_Place_Map
+{
+	map<int32, WorldMap_Place> Items = 1;
+}

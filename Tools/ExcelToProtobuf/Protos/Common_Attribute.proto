@@ -1,0 +1,16 @@
+syntax = "proto3";
+package deploy;
+
+message Common_Attribute
+{
+	int32	Id	=	1;
+	string	Name	=	2;
+	string	NameAbbr	=	3;
+	string	Icon	=	4;
+	string	Desc	=	5;
+}
+
+message Common_Attribute_Map
+{
+	map<int32, Common_Attribute> Items = 1;
+}

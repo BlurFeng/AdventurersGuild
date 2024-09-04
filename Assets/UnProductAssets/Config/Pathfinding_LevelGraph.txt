@@ -1,0 +1,1 @@
+{ "Items": { "100001": { "Id": 100001, "MapName": "MainGame_Level", "Width": 200, "Depth": 200, "NodeSize": 2, "Center": [ 80, 0, 80 ] } } }

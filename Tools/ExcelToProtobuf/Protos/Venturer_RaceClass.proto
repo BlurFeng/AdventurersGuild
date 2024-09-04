@@ -1,0 +1,14 @@
+syntax = "proto3";
+package deploy;
+
+message Venturer_RaceClass
+{
+	int32	Id	=	1;
+	string	Name	=	2;
+	string	Desc	=	3;
+}
+
+message Venturer_RaceClass_Map
+{
+	map<int32, Venturer_RaceClass> Items = 1;
+}

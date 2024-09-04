@@ -1,0 +1,389 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b4193ef03098d084fb0773f416570849, type: 3}
+  m_Name: SGC_Entrust_Default
+  m_EditorClassIdentifier: 
+  configCommonData:
+    sGuid:
+      guidStr: f8e935a9-f3a2-4056-8e94-ebb3d2d4f3d1
+    name: 
+    describe: 
+    tags: []
+    foldout: 0
+    commentName: "\u59D4\u6258\u9ED8\u8BA4\u6545\u4E8B\u96C6"
+    comment: "\u5192\u9669\u8005\u4F7F\u7528\u7684\u6545\u4E8B\u96C6\u5408\u3002\u5728\u5192\u9669\u8005\u8FDB\u884C\u59D4\u6258\u7684\u8FC7\u7A0B\u4E2D\u89E6\u53D1\u3002"
+  taskConfig:
+    taskItems: []
+    ownerType: 0
+    foldout: 0
+  storyConfigs:
+  - configCommonData:
+      sGuid:
+        guidStr: 19758898-9c80-45d6-a931-9feda93c06ec
+      name: 
+      describe: 
+      tags: []
+      foldout: 0
+      commentName: "\u8DEF\u4E0A\u7684\u65C5\u4EBA"
+      comment: "\u6B64\u6545\u4E8B\u53EA\u6709\u4E00\u4E2A\u7AE0\u8282\uFF0C\u7528\u4E8E\u5B58\u653E\u53EF\u4EE5\u91CD\u590D\u53D1\u751F\u7684\u96F6\u6563\u4E8B\u4EF6\u3002"
+    startChapterGuid:
+      guidStr: 8176caf1-01b4-4709-a268-1c927a2e8544
+    conditionConfig:
+      conditionItems: []
+      logicExpression: 
+      ownerType: 2
+      foldout: 0
+      logicExpressionCached: 
+      logicExpressionNotValid: 0
+    taskConfig:
+      taskItems: []
+      ownerType: 0
+      foldout: 0
+    chapters:
+    - configCommonData:
+        sGuid:
+          guidStr: 8176caf1-01b4-4709-a268-1c927a2e8544
+        name: 
+        describe: 
+        tags: []
+        foldout: 0
+        commentName: "\u8DEF\u4E0A\u7684\u65C5\u4EBA"
+        comment: "\u6B64\u6545\u4E8B\u53EA\u6709\u4E00\u4E2A\u7AE0\u8282\uFF0C\u7528\u4E8E\u5B58\u653E\u53EF\u4EE5\u91CD\u590D\u53D1\u751F\u7684\u96F6\u6563\u4E8B\u4EF6\u3002"
+      taskConfig:
+        taskItems: []
+        ownerType: 0
+        foldout: 0
+      linkOtherConfig:
+        linkOtherItems:
+        - targetSGuid:
+            guidStr: 
+          randomData:
+            probability: 10000
+            priority: 0
+            weight: 1
+          scoreLimit: 0
+          scoreLimitNum: 0
+          nodeChooseLimit: []
+          conditionConfig:
+            conditionItems: []
+            logicExpression: 
+            ownerType: 0
+            foldout: 0
+            logicExpressionCached: 
+            logicExpressionNotValid: 0
+          foldoutSelf: 1
+          foldoutNodeChooseLimit: 0
+          targetIndex: 0
+        foldoutLinkItems: 0
+      type: 0
+      startIncidentGuid:
+        guidStr: 
+      conditionNum: 0
+      incidents:
+      - configCommonData:
+          sGuid:
+            guidStr: 08b5347e-00dc-43cf-8876-8639b8cd64b5
+          name: 
+          describe: 
+          tags: []
+          foldout: 0
+          commentName: "\u8DEF\u8FB9\u7684\u4E5E\u4E10"
+          comment: 
+        randomData:
+          probability: 1000
+          priority: 1
+          weight: 1
+        repetition: 1
+        conditionConfig:
+          conditionItems:
+          - typeStr: 
+            param: 
+            foldout: 0
+            conditionTypePopupIndex: 0
+          logicExpression: 
+          ownerType: 4
+          foldout: 0
+          logicExpressionCached: 
+          logicExpressionNotValid: 0
+        taskConfig:
+          taskItems: []
+          ownerType: 0
+          foldout: 0
+        linkOtherConfig:
+          linkOtherItems: []
+          foldoutLinkItems: 0
+        incidentItems:
+        - configCommonData:
+            sGuid:
+              guidStr: 07f1012d-bf43-4040-9d5f-aab029d5d84a
+            name: 
+            describe: 
+            tags: []
+            foldout: 0
+            commentName: "\u8001\u4E5E\u4E10"
+            comment: 
+          randomData:
+            probability: 10000
+            priority: 0
+            weight: 1
+          startNodeGuid:
+            guidStr: 99965189-b426-45bc-9d58-668eb4b26feb
+          conditionConfig:
+            conditionItems: []
+            logicExpression: 
+            ownerType: 5
+            foldout: 0
+            logicExpressionCached: 
+            logicExpressionNotValid: 0
+          taskConfig:
+            taskItems: []
+            ownerType: 0
+            foldout: 0
+          nodes:
+          - configCommonData:
+              sGuid:
+                guidStr: 99965189-b426-45bc-9d58-668eb4b26feb
+              name: 
+              describe: 
+              tags: []
+              foldout: 0
+              commentName: "\u8DEF\u8FB9\u9047\u5230\u8001\u4E5E\u4E10"
+              comment: 
+            nodeType: 0
+            scoreLimit: 0
+            scoreLimitNum: 0
+            paragraphs:
+            - actor: 
+              describe: "\u4E0D\u8FDC\u5904\u7684\u8DEF\u8FB9\uFF0C\u5750\u7740\u4E00\u4E2A\u8001\u4E5E\u4E10"
+              foldoutSelf: 1
+            taskConfig:
+              taskItems: []
+              ownerType: 0
+              foldout: 0
+            chooses:
+            - configCommonData:
+                sGuid:
+                  guidStr: 6191a37f-f208-4b47-9000-1fde9a22dc29
+                name: "\u4E0A\u524D\u8BE2\u95EE\u72B6\u51B5"
+                describe: 
+                tags: []
+                foldout: 0
+                commentName: 
+                comment: 
+              scoreUseType: 0
+              score: 1
+              conditionConfig:
+                conditionItems: []
+                logicExpression: 
+                ownerType: 7
+                foldout: 0
+                logicExpressionCached: 
+                logicExpressionNotValid: 0
+              taskConfig:
+                taskItems: []
+                ownerType: 0
+                foldout: 0
+              linkOtherConfig:
+                linkOtherItems:
+                - targetSGuid:
+                    guidStr: 24bf2e2d-be03-41a5-a1d4-b1267172e201
+                  randomData:
+                    probability: 10000
+                    priority: 0
+                    weight: 1
+                  scoreLimit: 0
+                  scoreLimitNum: 0
+                  nodeChooseLimit: []
+                  conditionConfig:
+                    conditionItems:
+                    - typeStr: 
+                      param: 
+                      foldout: 0
+                      conditionTypePopupIndex: 0
+                    - typeStr: 
+                      param: 
+                      foldout: 0
+                      conditionTypePopupIndex: 0
+                    logicExpression: 
+                    ownerType: 0
+                    foldout: 0
+                    logicExpressionCached: 
+                    logicExpressionNotValid: 0
+                  foldoutSelf: 1
+                  foldoutNodeChooseLimit: 0
+                  targetIndex: 1
+                foldoutLinkItems: 1
+              fadeAreaOpenCached: 0
+            - configCommonData:
+                sGuid:
+                  guidStr: f796bf11-4d00-4788-ab1f-1137da77111e
+                name: "\u9ED8\u9ED8\u79BB\u5F00"
+                describe: 
+                tags: []
+                foldout: 0
+                commentName: 
+                comment: 
+              scoreUseType: 0
+              score: 0
+              conditionConfig:
+                conditionItems: []
+                logicExpression: 
+                ownerType: 7
+                foldout: 0
+                logicExpressionCached: 
+                logicExpressionNotValid: 0
+              taskConfig:
+                taskItems: []
+                ownerType: 0
+                foldout: 0
+              linkOtherConfig:
+                linkOtherItems: []
+                foldoutLinkItems: 0
+              fadeAreaOpenCached: 0
+            fadeAreaOpenCached: 1
+            foldoutParagraphs: 1
+          - configCommonData:
+              sGuid:
+                guidStr: 24bf2e2d-be03-41a5-a1d4-b1267172e201
+              name: 
+              describe: 
+              tags: []
+              foldout: 0
+              commentName: "\u4E0A\u524D\u8BE2\u95EE\u72B6\u51B5"
+              comment: 
+            nodeType: 0
+            scoreLimit: 0
+            scoreLimitNum: 0
+            paragraphs:
+            - actor: 
+              describe: "\u4ED6\u6643\u4E86\u6643\u624B\u4E2D\u7684\u7834\u676F\u5B50\uFF0C\u8BF7\u6C42\u4F60\u4EEC\u7684\u65BD\u820D"
+              foldoutSelf: 1
+            taskConfig:
+              taskItems: []
+              ownerType: 0
+              foldout: 0
+            chooses:
+            - configCommonData:
+                sGuid:
+                  guidStr: b469b823-d100-49ec-9f64-d29a2b2e7b2b
+                name: "\u7ED9\u4E00\u4E9B\u94B1"
+                describe: 
+                tags: []
+                foldout: 0
+                commentName: 
+                comment: 
+              scoreUseType: 0
+              score: 2
+              conditionConfig:
+                conditionItems:
+                - typeStr: SC_Coin
+                  param: 50|3
+                  foldout: 1
+                  conditionTypePopupIndex: 1
+                logicExpression: 0
+                ownerType: 7
+                foldout: 1
+                logicExpressionCached: 0
+                logicExpressionNotValid: 0
+              taskConfig:
+                taskItems:
+                - typeStr: ST_CoinConsume
+                  param: 10
+                  foldout: 1
+                  taskTypePopupIndex: 1
+                ownerType: 0
+                foldout: 1
+              linkOtherConfig:
+                linkOtherItems: []
+                foldoutLinkItems: 0
+              fadeAreaOpenCached: 1
+            - configCommonData:
+                sGuid:
+                  guidStr: 0cabcf90-e71a-4350-8d47-6110230ecf95
+                name: "\u7ED9\u4E00\u70B9\u94B1"
+                describe: 
+                tags: []
+                foldout: 0
+                commentName: 
+                comment: 
+              scoreUseType: 0
+              score: 1
+              conditionConfig:
+                conditionItems:
+                - typeStr: SC_Coin
+                  param: 10|3
+                  foldout: 1
+                  conditionTypePopupIndex: 1
+                logicExpression: 0
+                ownerType: 7
+                foldout: 1
+                logicExpressionCached: 0
+                logicExpressionNotValid: 0
+              taskConfig:
+                taskItems:
+                - typeStr: ST_CoinConsume
+                  param: 2
+                  foldout: 1
+                  taskTypePopupIndex: 1
+                ownerType: 0
+                foldout: 1
+              linkOtherConfig:
+                linkOtherItems: []
+                foldoutLinkItems: 0
+              fadeAreaOpenCached: 1
+            - configCommonData:
+                sGuid:
+                  guidStr: 5f2682c4-31b2-4de3-82c7-ae4b41f98b5e
+                name: "\u7ED9\u5F88\u591A\u94B1"
+                describe: 
+                tags: []
+                foldout: 0
+                commentName: 
+                comment: 
+              scoreUseType: 0
+              score: 3
+              conditionConfig:
+                conditionItems:
+                - typeStr: SC_Coin
+                  param: 200|3
+                  foldout: 1
+                  conditionTypePopupIndex: 1
+                logicExpression: 0
+                ownerType: 7
+                foldout: 1
+                logicExpressionCached: 0
+                logicExpressionNotValid: 0
+              taskConfig:
+                taskItems:
+                - typeStr: ST_CoinConsume
+                  param: 40
+                  foldout: 1
+                  taskTypePopupIndex: 1
+                ownerType: 0
+                foldout: 1
+              linkOtherConfig:
+                linkOtherItems: []
+                foldoutLinkItems: 0
+              fadeAreaOpenCached: 1
+            fadeAreaOpenCached: 1
+            foldoutParagraphs: 1
+          fadeAreaOpenCached: 1
+          startNodeIndex: 0
+        fadeAreaOpenCached: 1
+      fadeAreaOpenCached: 1
+      startIncidentIndex: 0
+      incidentHeaders:
+      - "\u8DEF\u8FB9\u7684\u4E5E\u4E10"
+    fadeAreaOpenCached: 1
+    startChapterIndex: 0
+    chapterHeaders:
+    - "\u8DEF\u4E0A\u7684\u65C5\u4EBA"

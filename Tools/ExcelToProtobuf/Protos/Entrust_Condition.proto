@@ -1,0 +1,15 @@
+syntax = "proto3";
+package deploy;
+
+message Entrust_Condition
+{
+	int32	Id	=	1;
+	string	ClassName	=	2;
+	string	Name	=	3;
+	string	Des	=	4;
+}
+
+message Entrust_Condition_Map
+{
+	map<int32, Entrust_Condition> Items = 1;
+}

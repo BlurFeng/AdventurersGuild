@@ -1,0 +1,49 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: PrefabGame
+  m_EditorClassIdentifier: 
+  m_GroupName: PrefabGame
+  m_Data:
+    m_SerializedData: []
+  m_GUID: ce3a90afa87f53949bfc193bd2d65d12
+  m_SerializeEntries:
+  - m_GUID: c1ea3a076f596e046b4047851794f364
+    m_Address: Assets/ProductAssets/Prefab/Environment
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 1bebf45a1749be945b1f19f6862af63b
+    m_Address: Assets/ProductAssets/Prefab/Character
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 1c5a2421a08fee84689be0259af6ce5a
+    m_Address: Assets/ProductAssets/Prefab/Furniture
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 9cb8728948252824c99f244f014bbb10
+    m_Address: Assets/ProductAssets/Prefab/Template
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: d9b5f9efc6f36854fa7cc5ac2edb1fda
+    m_Address: Assets/ProductAssets/Spine
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 17f08971673fa9b4ba1bc90814aaa8c9
+    m_Address: Assets/ProductAssets/Prefab/Building
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: 854052dcc2b859a4c8d8dae4e736043b, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: e6b1facf2061aad46aea937a1be52e55, type: 2}
+    - {fileID: 11400000, guid: 41b273565d1adc94895307ca697fcb16, type: 2}

@@ -1,0 +1,52 @@
+[
+  {
+    "KeyState": "Idle",
+    "Normal": "2",
+    "Dead": "0",
+    "Idle": "0",
+    "Walk": "1",
+    "Run": "1",
+    "Jump": "1",
+    "Grounded": "2"
+  },
+  {
+    "KeyState": "Walk",
+    "Normal": "2",
+    "Dead": "0",
+    "Idle": "1",
+    "Walk": "0",
+    "Run": "1",
+    "Jump": "1",
+    "Grounded": "2"
+  },
+  {
+    "KeyState": "Run",
+    "Normal": "2",
+    "Dead": "0",
+    "Idle": "1",
+    "Walk": "1",
+    "Run": "0",
+    "Jump": "1",
+    "Grounded": "2"
+  },
+  {
+    "KeyState": "Jump",
+    "Normal": "2",
+    "Dead": "0",
+    "Idle": "2",
+    "Walk": "2",
+    "Run": "2",
+    "Jump": "0",
+    "Grounded": "2"
+  },
+  {
+    "KeyState": "Grounded",
+    "Normal": "2",
+    "Dead": "2",
+    "Idle": "2",
+    "Walk": "2",
+    "Run": "2",
+    "Jump": "2",
+    "Grounded": "0"
+  }
+]

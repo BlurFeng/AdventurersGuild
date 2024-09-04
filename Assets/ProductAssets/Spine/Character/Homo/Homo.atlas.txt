@@ -1,0 +1,6 @@
+Homo.png
+size:16,16
+filter:Linear,Linear
+pma:true
+Empty
+bounds:1,1,1,1
