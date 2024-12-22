@@ -23,14 +23,14 @@ MonoBehaviour:
     key: -1
     header: 
     color: {r: 1, g: 1, b: 1, a: 1}
-    fadeAreaOpenCached: 0
+    fadeAreaOpenCached: 1
   - enableDefault: 1
     signature: Master
     logSignature: 1
     key: -2
     header: 
-    color: {r: 0.95, g: 0.819375, b: 0.8075, a: 1}
-    fadeAreaOpenCached: 0
+    color: {r: 1, g: 0.627, b: 0.627, a: 1}
+    fadeAreaOpenCached: 1
   customMemberAssets:
   - enableDefault: 1
     signature: Winhoo
@@ -38,13 +38,6 @@ MonoBehaviour:
     key: 1
     header: 
     color: {r: 0.7843, g: 0.941, b: 1, a: 1}
-    fadeAreaOpenCached: 1
-  - enableDefault: 1
-    signature: Menber 2
-    logSignature: 1
-    key: 2
-    header: 
-    color: {r: 0.8118703, g: 0.95, b: 0.8075, a: 1}
     fadeAreaOpenCached: 1
   logOutput: 1
   enableLogStackTrace: 0

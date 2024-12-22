@@ -36,7 +36,7 @@ Material:
     - _StencilOp: 0
     - _StencilReadMask: 255
     - _StencilWriteMask: 255
-    - _TimeStart: -198.13782
+    - _TimeStart: -198.16583
     - _UseUIAlphaClip: 1
     m_Colors:
     - _Color: {r: 1, g: 1, b: 1, a: 1}
