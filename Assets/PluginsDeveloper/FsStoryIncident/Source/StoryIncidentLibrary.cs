@@ -295,7 +295,7 @@ namespace FsStoryIncident
         /// <returns></returns>
         public static int RandomIndexByWeights(int[] weights, int weightTotal = -1)
         {
-            //计算权重总值 分母
+            //计算权重总值
             if (weightTotal <= 0)
             {
                 weightTotal = 0;
@@ -305,29 +305,22 @@ namespace FsStoryIncident
                 }
             }
 
-            float randomNum = Random(0f, 1f);//随机数
+            int randomNum = Random(1, weightTotal);//随机数
 
-            float left;
-            float right = 0f;
+            int right = 0;
             //确认随机数命中了哪一段
             for (int i = 0; i < weights.Length; i++)
             {
-                left = right;
-                right = left + GetWeightPoint(weights[i], weightTotal);
+                right += weights[i];
 
                 //随机数条件有重合部分 但可以忽略
-                if (randomNum >= left && randomNum <= right)
+                if (randomNum <= right)
                 {
                     return i;//返回命中段的权重下标
                 }
             }
 
-            return -1;
-        }
-
-        private static float GetWeightPoint(int weight, int weightTotal)
-        {
-            return weight * (1f / weightTotal);
+            return 0;
         }
 
         /// <summary>
